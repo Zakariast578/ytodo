@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.6",
+    "tailwindcss": "^4.1.6"
+  },
+  "scripts": {
+    "watch:css": "npx @tailwindcss/cli -i ./todoproj/static/src/style.css -o ./todoproj/static/dist/styles.css --watch"
+  }
+}
